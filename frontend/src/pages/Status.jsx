@@ -12,7 +12,7 @@ export default function Status() {
     setLoading(true);
 
     try {
-      const res = await API.get("/health");
+      const res = await API.get("/healthz");
       if (res.data.status === "ok") {
         setStatus("Backend is running fine");
         setIsOnline(true);
