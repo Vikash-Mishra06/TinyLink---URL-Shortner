@@ -1,4 +1,4 @@
-# TinyLink — URL Shortener (MERN)
+# TinyLink - (A Full-Stack URL Shortener)
 
 TinyLink is a simple URL shortener built as a take-home assignment.  
 It allows users to create short links, view statistics, manage links, and handle redirects with click tracking.
